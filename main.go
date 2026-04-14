@@ -173,7 +173,7 @@ func main() {
 	}
 
 	root := os.Args[1]
-	fmt.Printf("Scanning: $s\n", root)
+	fmt.Printf("Scanning: %s\n", root)
 
 	paths, err := collectFiles(root)
 
